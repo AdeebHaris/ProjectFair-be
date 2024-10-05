@@ -36,6 +36,6 @@ pfServer.listen(PORT,()=>{
 })
 
 pfServer.get('/',(req,res)=>{
-    res.send("server for project fair is running and waiting for client request !!!")
+    res.status("server for project fair is running and waiting for client request !!!")
 })
 
